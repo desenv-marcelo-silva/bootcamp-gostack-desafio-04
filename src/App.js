@@ -1,20 +1,13 @@
 import React from 'react';
 
 import './App.css';
-import loginAvatar from '../public/assets/login_avatar.png';
+
+import Header from './components/Header';
 
 function App() {
   return (
     <>
-    <header>
-      <div>Facebook</div>
-      <div className="login">
-        <div>Meu perfil</div>
-        <div className="icon">
-          <img src={loginAvatar} />
-        </div>
-      </div>
-    </header>
+    <Header />
     <div className="postList">
       <h2>Here we're a post list</h2>
       <div className="post">
