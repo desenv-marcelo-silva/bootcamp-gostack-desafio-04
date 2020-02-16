@@ -3,4 +3,59 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Facebook Letter faces', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #3b5998;
+  height: 50px;
+}
+
+header div {
+  align-content: center;
+  margin: 10px;
+  color: #fff;
+}
+
+header > div:first-child {
+  font-size: 1.5em;
+}
+
+header div.login {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+}
+
+header div.login div.icon {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 1px #fff solid;
+  margin: 0;
+}
+
+header div.login img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.postList {
+  font-family: 'Book antiqua', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 3px solid green;
+  height: 100%;
+}
+
+.post {
+  border: 3px solid red;
+}
+
+.comments {
+  border: 3px solid blue;
 }
