@@ -23,6 +23,10 @@ header div.login {
   font-size: 1em;
 }
 
+header div.login:hover {
+  cursor: pointer;
+}
+
 header div.login div.icon {
   border-radius: 50%;
   width: 20px;
