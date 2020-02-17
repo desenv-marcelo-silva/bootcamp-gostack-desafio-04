@@ -1,3 +1,29 @@
 .post {
-  border: 3px solid red;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  border-radius: 5%;
+  background: #fff;
+}
+
+.post .avatar {
+  display: flex;
+}
+
+.post .avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.post .post-autor-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  font-size: smaller;
+}
+
+.post .post-autor-name div:last-child {
+  color: #a29797;
+  font-weight: 400;
 }

@@ -3,12 +3,21 @@ import React from 'react';
 import Comments from './Comments';
 import './Posts.css';
 
-function Posts() {
+function Posts({ conteudo }) {
+  console.log(conteudo);
 return (
   <>
     <div className="post">
-      <h3>Here we're a posts</h3>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi atque necessitatibus voluptatum sunt, sit nesciunt delectus alias repellendus iste sequi maiores ducimus id odio facere cum optio consequatur dicta quo.</p>
+      <div className="avatar">
+        <div>
+          <img src={conteudo.author.avatar} />
+        </div>
+        <div className='post-autor-name'>
+          <div>{conteudo.author.name}</div>
+          <div>{conteudo.date}</div>
+        </div>
+      </div>
+      <div><p>{conteudo.content}</p></div>
       <Comments />
     </div>
   </>

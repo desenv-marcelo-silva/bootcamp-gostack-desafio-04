@@ -1,5 +1,7 @@
 .postList {
   font-family: 'Book antiqua', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 3px solid green;
   height: 100%;
+  width: 800px;
+  margin: 0 auto;
+  background:  #e4e4e4;
 }
