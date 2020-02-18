@@ -1,6 +1,12 @@
 # bootcamp-gostack-desafio-04
 Challenge #4 proposed by Rocketseat - Using React
 
+<p align="center">
+  <a href="https://github.com/desenv-marcelo-silva/bootcamp-gostack-desafio-04/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/desenv-marcelo-silva/bootcamp-gostack-desafio-04"></a>
+  <a href="https://github.com/desenv-marcelo-silva/bootcamp-gostack-desafio-04/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/desenv-marcelo-silva/bootcamp-gostack-desafio-04"></a>
+
+</p>
+
 <h1 align="center">
     <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="200px" />
 </h1>
@@ -93,3 +99,36 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 ---
 
 Proposto com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+
+<h3 align="center">
+  Quer ver esse projeto rodando?
+  
+  Tenha o <strong>git</strong> instalado. 
+  Se não tiver, baixe aqui: [Git](https://git-scm.com/)
+
+  Tenha o <strong>yarn</strong> instalado. 
+  Se não tiver, baixe aqui: [Yarn](https://classic.yarnpkg.com/pt-BR/docs/cli/install)
+</h3>
+
+## Execute os passos abaixo:
+
+1. Clone o projeto:
+  ```sh
+   git clone http://github.com/desenv-marcelo-silva/bootcamp-gostack-desafio-04.git
+  ```
+
+2. Acesse a pasta onde o clone foi feito e baixe as dependências:
+  ```sh
+    yarn
+  ```
+
+3. Tudo feito sem problemas, basta digitar, na pasta do projeto:
+  ```sh
+    yarn dev
+  ```
+
+4. Acesse o endereço no browser:
+   [localhost:9000](http://127.0.0.1:9000)
+
+5. Você deverá ver uma tela como esta abaixo:
+   ![Imagem do projeto rodando](2reademe/screen.png)
