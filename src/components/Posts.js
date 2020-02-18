@@ -4,7 +4,7 @@ import Comments from './Comments';
 import './Posts.css';
 
 function Posts({ conteudo }) {
-  console.log(conteudo);
+  
 return (
   <>
     <div className="post">
@@ -20,7 +20,7 @@ return (
       <div><p>{conteudo.content}</p></div>
       <hr />
       { conteudo.comments.map( currentComment => (
-          <Comments comment={ currentComment } />
+          <Comments key={currentComment.id} comment={ currentComment } />
         ))
       }
     </div>
