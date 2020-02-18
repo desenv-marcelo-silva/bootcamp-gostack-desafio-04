@@ -113,17 +113,17 @@ Proposto com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://disco
 ## Execute os passos abaixo:
 
 1. Clone o projeto:
-  ```sh
+  ```
    git clone http://github.com/desenv-marcelo-silva/bootcamp-gostack-desafio-04.git
   ```
 
 2. Acesse a pasta onde o clone foi feito e baixe as dependências:
-  ```sh
+  ```
     yarn
   ```
 
 3. Tudo feito sem problemas, basta digitar, na pasta do projeto:
-  ```sh
+  ```
     yarn dev
   ```
 
@@ -131,4 +131,5 @@ Proposto com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://disco
    [localhost:9000](http://127.0.0.1:9000)
 
 5. Você deverá ver uma tela como esta abaixo:
-   ![Imagem do projeto rodando](2reademe/screen.png)
+
+   ![Imagem do projeto rodando](2readme/screen.png)
