@@ -14,7 +14,7 @@ export default [
           name: "Diego Fernandes",
           avatar: "https://randomuser.me/api/portraits/women/83.jpg"
         },
-        content: "Conteúdo do comentário"
+        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dignissimos dolores, molestiae officia, asperiores omnis illum similique autem fugit totam labore debitis aliquam ab nam minus quibusdam fuga expedita aut?"
       }
     ]
   },
@@ -33,7 +33,7 @@ export default [
           name: "Diego Fernandes",
           avatar: "https://randomuser.me/api/portraits/women/83.jpg"
         },
-        content: "Conteúdo do comentário"
+        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dignissimos dolores, molestiae officia, asperiores omnis illum similique autem fugit totam labore debitis aliquam ab nam minus quibusdam fuga expedita aut?"
       }
     ]
   },
