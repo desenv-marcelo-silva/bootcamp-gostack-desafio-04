@@ -2,12 +2,16 @@ import React from 'react';
 
 import './Comments.css';
 
-function Comments() {
+function Comments({ comment }) {
 return (
   <>
     <div className="comments">
-      <h4>Here we're comments</h4>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto veritatis distinctio eaque eius placeat ex debitis perspiciatis officiis ea sunt eligendi at, quod provident nihil modi ad mollitia, ipsum corporis?</p>
+      <div className="comment-avatar">
+        <div>
+          <img src={comment.author.avatar} />
+        </div>
+        <div className="comment-content"><p><strong>{comment.author.name}</strong> {comment.content}</p></div>
+      </div>
     </div>
   </>
   )

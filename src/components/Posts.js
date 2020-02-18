@@ -18,7 +18,11 @@ return (
         </div>
       </div>
       <div><p>{conteudo.content}</p></div>
-      <Comments />
+      <hr />
+      { conteudo.comments.map( currentComment => (
+          <Comments comment={ currentComment } />
+        ))
+      }
     </div>
   </>
   )
