@@ -5,6 +5,7 @@ header {
   align-items: center;
   background: #3b5998;
   height: 50px;
+  margin-bottom: 10px;
 }
 
 header div {
