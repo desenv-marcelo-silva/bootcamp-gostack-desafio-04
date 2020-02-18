@@ -100,15 +100,16 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 Proposto com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
 
-<h3 align="center">
-  Quer ver esse projeto rodando?
-  
-  Tenha o <strong>git</strong> instalado. 
-  Se não tiver, baixe aqui: [Git](https://git-scm.com/)
 
-  Tenha o <strong>yarn</strong> instalado. 
-  Se não tiver, baixe aqui: [Yarn](https://classic.yarnpkg.com/pt-BR/docs/cli/install)
-</h3>
+## Quer ver esse projeto rodando?
+  
+  > Tenha o <strong>git</strong> instalado. 
+    Se não tiver, baixe aqui: [Git](https://git-scm.com/){:target="_blank"}
+
+  > Tenha o <strong>yarn</strong> instalado. 
+    Se não tiver, baixe aqui: [Yarn](https://classic.yarnpkg.com/pt-BR/docs/cli/install){:target="_blank"}
+
+
 
 ## Execute os passos abaixo:
 
