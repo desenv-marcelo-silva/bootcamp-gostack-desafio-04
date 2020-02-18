@@ -18,7 +18,6 @@ class PostLists extends Component {
     return (
         <>
           <div className="postList">
-            <h2>Here we're a post list</h2>
             { this.state.posts.length === 0 && <h3>We have no Posts yet.</h3> }
             { this.state.posts.map(post => (<Posts conteudo={post} key={post.id}/>)) }
           </div>
