@@ -104,31 +104,32 @@ Proposto com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://disco
 ## Quer ver esse projeto rodando?
   
   > Tenha o <strong>git</strong> instalado. 
-    Se não tiver, baixe aqui: [Git](https://git-scm.com/){:target="_blank"}
+    Se não tiver, baixe aqui: [Git](https://git-scm.com/ "Best to control your verions.")
 
   > Tenha o <strong>yarn</strong> instalado. 
-    Se não tiver, baixe aqui: [Yarn](https://classic.yarnpkg.com/pt-BR/docs/cli/install){:target="_blank"}
+    Se não tiver, baixe aqui: [Yarn](https://classic.yarnpkg.com/pt-BR/docs/cli/install "Best package manager.")
 
 
 
 ## Execute os passos abaixo:
 
 1. Clone o projeto:
-  ```
+  ```sh
    git clone http://github.com/desenv-marcelo-silva/bootcamp-gostack-desafio-04.git
   ```
 
 2. Acesse a pasta onde o clone foi feito e baixe as dependências:
-  ```
+  ```sh
     yarn
   ```
 
 3. Tudo feito sem problemas, basta digitar, na pasta do projeto:
-  ```
+  ```sh
     yarn dev
   ```
 
 4. Acesse o endereço no browser:
+
    [localhost:9000](http://127.0.0.1:9000)
 
 5. Você deverá ver uma tela como esta abaixo:
